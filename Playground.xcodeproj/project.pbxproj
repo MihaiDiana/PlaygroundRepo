@@ -14,6 +14,7 @@
 		A7B964131B2236A100368FAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B964121B2236A100368FAB /* Images.xcassets */; };
 		A7B964161B2236A100368FAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B964141B2236A100368FAB /* LaunchScreen.xib */; };
 		A7B964221B2236A100368FAB /* PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B964211B2236A100368FAB /* PlaygroundTests.m */; };
+		A7B9642D1B2237CE00368FAB /* PlaygroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B9642C1B2237CE00368FAB /* PlaygroundViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A7B9641B1B2236A100368FAB /* PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B964201B2236A100368FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B964211B2236A100368FAB /* PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaygroundTests.m; sourceTree = "<group>"; };
+		A7B9642B1B2237CE00368FAB /* PlaygroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaygroundViewController.h; sourceTree = "<group>"; };
+		A7B9642C1B2237CE00368FAB /* PlaygroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaygroundViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A7B964121B2236A100368FAB /* Images.xcassets */,
 				A7B964141B2236A100368FAB /* LaunchScreen.xib */,
 				A7B964051B2236A100368FAB /* Supporting Files */,
+				A7B9642B1B2237CE00368FAB /* PlaygroundViewController.h */,
+				A7B9642C1B2237CE00368FAB /* PlaygroundViewController.m */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B9640E1B2236A100368FAB /* ViewController.m in Sources */,
+				A7B9642D1B2237CE00368FAB /* PlaygroundViewController.m in Sources */,
 				A7B9640B1B2236A100368FAB /* AppDelegate.m in Sources */,
 				A7B964081B2236A100368FAB /* main.m in Sources */,
 			);
