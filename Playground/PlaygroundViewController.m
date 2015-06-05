@@ -8,7 +8,7 @@
 
 #import "PlaygroundViewController.h"
 
-@interface PlaygroundViewController ()
+@interface PlaygroundViewController ()<UIAlertViewDelegate>
 
 @end
 
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIAlertView *Alert = [[UIAlertView alloc] initWithTitle:@"frge" message:@"grege" delegate:self cancelButtonTitle:"Cancel" otherButtonTitles:@"ok", nil];
     // Do any additional setup after loading the view.
 }
 
